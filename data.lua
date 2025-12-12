@@ -19,4 +19,6 @@ require("prototypes.entity.crusher")
 require("prototypes.entity.accum-van")
 require("prototypes.entity.chemical-furnace")
 
+require("prototypes.compatibility.data")
+
 if settings.startup["off-music"].value == false then require("prototypes.music") end
